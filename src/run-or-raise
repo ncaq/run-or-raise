@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+if `wmctrl -xa $1`
+then
+else
+    exec $@
+fi
